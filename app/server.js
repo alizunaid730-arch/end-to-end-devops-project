@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-    res.send("🚀 DevOps CI/CD Project is Running!");
+    res.send("🚀 DevOps CI/CD Project is running!");
 });
 
 app.get("/health", (req, res) => {
